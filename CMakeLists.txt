@@ -17,6 +17,10 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/FrontierList.msg"
   "msg/VehicleState.msg"
   "msg/VehicleStateArray.msg"
+  "msg/ConstrainedVehicleState.msg"
+  "msg/ConstrainedVehicleStateArray.msg"
+  "msg/BoundAdjustment.msg"
+  "msg/ConstraintStatus.msg"
   DEPENDENCIES std_msgs geometry_msgs
 )
 
