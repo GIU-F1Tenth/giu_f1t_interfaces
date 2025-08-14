@@ -22,6 +22,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ConstrainedVehicleStateArray.msg"
   "msg/BoundAdjustment.msg"
   "msg/ConstraintStatus.msg"
+  "msg/HorizonControl.msg"
+  "msg/HorizonStatus.msg"
   DEPENDENCIES std_msgs geometry_msgs
 )
 
